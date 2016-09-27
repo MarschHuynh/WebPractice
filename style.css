@@ -1,0 +1,58 @@
+body {
+
+}
+
+ul {
+  padding: 10px;
+  margin: 0px;
+  list-style: none;
+  background-color: #3a4f63;
+  position: absolute;
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+li:hover {
+  background-color: #bfcbd6;
+}
+
+li > ul {
+  padding: 0px;
+  border: 2px solid black;
+  margin-left: -2px;
+}
+
+li a {
+  display: block;
+}
+
+li > a:link {
+  padding: 0 20px;
+  color: #dde4ec;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #465c71;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;;
+}
+
+li ul li{
+  margin: 0;
+  display: block;
+  border: none;
+}
+
+ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}
