@@ -31,9 +31,9 @@ form {
 .error {
   color: red;
   font-size: 0.8em;
-  width: 200px;
-
 }
 
 form .error {
+  position: absolute;
+  right: 0;
 }

@@ -18,14 +18,6 @@ $(document).ready(function(){
         min: 15,
         max: 150,
       },
-      messages: {
-        first_name: "Enter your first name",
-        last_name: {
-          required: "Enter your last name",
-          maxlength: "Too much character in your last name"
-        }
-      },
-
       submitHandler: function(form){
         form.submit();
       }
