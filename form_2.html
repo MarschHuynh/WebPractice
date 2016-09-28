@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marsch Huynh</title>
+    <head>
+      <link rel="stylesheet" href="style_form_2.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="plugin/jquery-ui.min.css" media="screen" title="no title" charset="utf-8">
+    </head>
+  </head>
+
+  <body>
+    <div>
+      <form action="" class="form_information">
+        <fieldset>
+          <legend>Form</legend>
+          <div class="container">
+            <div class="row">
+                <label class="col-3" for="first_name">First Name:</label>
+                <input class="col-9" type="text" name="first_name" value="" id="first_name">
+            </div>
+            <div class="row">
+              <label class="col-3" for="last_name">Last Name:</label>
+              <input class="col-9" type="text" name="last_name" value="" id="last_name">
+            </div>
+            <div class="row">
+                <label class="col-3" for="sex">Sex:</label>
+                <div class="col-9">
+                  <div class="col-3">
+                    <label for="male">Male</label>
+                    <input class="col-3" checked="checked" type="radio" name="gender" value="Male">
+                  </div>
+                  <div class="col-3">
+                    <label for="female">Female</label>
+                    <input class="col-3" type="radio" name="gender" value="Female">
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-3" for="nationality">Nationality:</label>
+                <select class="col-9" id="nationality">
+                  <option value="vietnam">Việt Nam</option>
+                  <option value="lao">Lào</option>
+                  <option value="campuchia">Campuchia</option>
+                  <option value="thailan">Thái Lan</option>
+                </select>
+            </div>
+            <div class="row">
+                <label class="col-3" for="full_name">Full name:</label>
+                <span id="full_name">Thien</span>
+            </div>
+            <div class="row">
+                <label class="col-3" for="sex">Sex:</label>
+                <span id="sexresult">Male</span>
+            </div>
+            <div class="row">
+                <label class="col-3" for="nationality">Nationality:</label>
+                <span id="nationalityresult">Việt Nam</span>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"> </script>
+    <script type="text/javascript" src="plugin/jquery-ui.min.js"> </script>
+    <script type="text/javascript" src="plugin/jquery.validate.min.js"> </script>
+    <script type="text/javascript" src="script_form_2.js"> </script>
+  </body>
+</html>
